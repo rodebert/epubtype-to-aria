@@ -1,0 +1,12 @@
+*.iml
+node_modules
+Jenkins
+doc
+k8s
+dummy
+.gitignore
+.git
+.idea
+npm-debug.log
+tempDir
+.tmp

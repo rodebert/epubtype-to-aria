@@ -1,0 +1,27 @@
+{
+  "name": "epubtype-to-aria",
+  "version": "0.1.0",
+  "description": "A concept script to append aria doc roles based on epub:type",
+  "main": "index.js",
+  "scripts": {
+	"test": "./node_modules/jest/bin/jest.js --runInBand test",
+	"prepublishOnly": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodebert/epubtype-to-aria.git"
+  },
+  "author": "Robert Weber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodebert/epubtype-to-aria/issues"
+  },
+  "homepage": "https://github.com/rodebert/epubtype-to-aria#readme",
+  "dependencies": {
+    "jsdom": "^11.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "jest": "^22.4.2"
+  }
+}
